@@ -50,7 +50,7 @@
 		var _this = this;
 		this.interval = setInterval((function() {
 			_this.callback(_this.processData());
-		}), this.config.frequency * 1000);
+		}), this.config.frequency * 3000);
 		this.callback(this.processData());
 		return this;
 	};
